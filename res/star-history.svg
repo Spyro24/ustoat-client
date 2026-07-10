@@ -1,5 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg class="w-full h-full" style="stroke-width: 3px; font-family: xkcd; background: white;" width="100%" height="490.6666666666667" preserveAspectRatio="xMidYMid meet" viewBox="0 0 736 490.6666666666667"><filter id="xkcdify" filterUnits="userSpaceOnUse" x="-5" y="-5" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.05" result="noise"></feTurbulence><feDisplacementMap scale="5" xChannelSelector="R" yChannelSelector="G" in="SourceGraphic" in2="noise"></feDisplacementMap></filter><style>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="w-full h-full"
+   style="stroke-width: 3px; font-family: xkcd; background: white;"
+   width="100%"
+   height="490.6666666666667"
+   preserveAspectRatio="xMidYMid meet"
+   viewBox="0 0 736 490.6666666666667"
+   version="1.1"
+   id="svg150"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs154" />
+  <filter
+     id="xkcdify"
+     filterUnits="userSpaceOnUse"
+     x="-5"
+     y="-5"
+     width="100%"
+     height="100%">
+    <feTurbulence
+       type="fractalNoise"
+       baseFrequency="0.05"
+       result="noise"
+       id="feTurbulence2" />
+    <feDisplacementMap
+       scale="5"
+       xChannelSelector="R"
+       yChannelSelector="G"
+       in="SourceGraphic"
+       in2="noise"
+       id="feDisplacementMap4" />
+  </filter>
+  <style
+     id="style7">
             @keyframes lobster-swim {
                 0%, 100% { transform: translate(0, 0) rotate(0deg); }
                 25% { transform: translate(2px, -3px) rotate(-5deg); }
@@ -11,4 +45,407 @@
                 transform-origin: center;
                 transform-box: fill-box;
             }
-        </style><g transform="translate(70,60)"><g pointer-events="all"><text style="font-size: 16px; fill: rgb(102, 102, 102);" transform="translate(586,420.6666666666667)" text-anchor="middle">star-history.com</text><image transform="translate(501,405.6666666666667)" height="20" width="20" href="data:image/png;base64,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"></image><g class="xaxis" transform="translate(0,380.6666666666667)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle"><path class="domain" stroke="currentColor" d="M0.5,0.5H636.5" filter="url(#xkcdify)" style="stroke: black;"></path><g class="tick" opacity="1" transform="translate(58.015243963285165,0)"><line stroke="currentColor" y2="0"></line><text fill="currentColor" y="6" dy="0.71em" style="font-family: xkcd; font-size: 16px; fill: black;">March</text></g><g class="tick" opacity="1" transform="translate(193.82009696487427,0)"><line stroke="currentColor" y2="0"></line><text fill="currentColor" y="6" dy="0.71em" style="font-family: xkcd; font-size: 16px; fill: black;">April</text></g><g class="tick" opacity="1" transform="translate(325.4210312329013,0)"><line stroke="currentColor" y2="0"></line><text fill="currentColor" y="6" dy="0.71em" style="font-family: xkcd; font-size: 16px; fill: black;">May</text></g><g class="tick" opacity="1" transform="translate(461.4086633098628,0)"><line stroke="currentColor" y2="0"></line><text fill="currentColor" y="6" dy="0.71em" style="font-family: xkcd; font-size: 16px; fill: black;">June</text></g><g class="tick" opacity="1" transform="translate(593.0095975778898,0)"><line stroke="currentColor" y2="0"></line><text fill="currentColor" y="6" dy="0.71em" style="font-family: xkcd; font-size: 16px; fill: black;">July</text></g></g><g class="yaxis" fill="none" font-size="10" font-family="sans-serif" text-anchor="end"><path class="domain" stroke="currentColor" d="M-1,381.1666666666667H0.5V0.5H-1" filter="url(#xkcdify)" style="stroke: black;"></path><g class="tick" opacity="1" transform="translate(0,381.1666666666667)"><line stroke="currentColor" x2="-1"></line><text fill="currentColor" x="-7" dy="0.32em" style="font-family: xkcd; font-size: 16px; fill: black;"> </text></g><g class="tick" opacity="1" transform="translate(0,305.03333333333336)"><line stroke="currentColor" x2="-1"></line><text fill="currentColor" x="-7" dy="0.32em" style="font-family: xkcd; font-size: 16px; fill: black;">2</text></g><g class="tick" opacity="1" transform="translate(0,228.9)"><line stroke="currentColor" x2="-1"></line><text fill="currentColor" x="-7" dy="0.32em" style="font-family: xkcd; font-size: 16px; fill: black;">4</text></g><g class="tick" opacity="1" transform="translate(0,152.76666666666668)"><line stroke="currentColor" x2="-1"></line><text fill="currentColor" x="-7" dy="0.32em" style="font-family: xkcd; font-size: 16px; fill: black;">6</text></g><g class="tick" opacity="1" transform="translate(0,76.63333333333333)"><line stroke="currentColor" x2="-1"></line><text fill="currentColor" x="-7" dy="0.32em" style="font-family: xkcd; font-size: 16px; fill: black;">8</text></g><g class="tick" opacity="1" transform="translate(0,0.5)"><line stroke="currentColor" x2="-1"></line><text fill="currentColor" x="-7" dy="0.32em" style="font-family: xkcd; font-size: 16px; fill: black;">10</text></g></g><path class="xkcd-chart-xyline" d="M0,380.6666666666667C6.928562407766258,367.1513609284525,13.857124815532519,353.6360551902384,20.785687223298776,342.6C31.01280267794975,326.3098947874159,41.23991813260073,329.91111111111115,51.467033587251706,304.53333333333336C51.51457307083695,304.4153678663895,51.5621125544222,267.22427265405986,51.60965203800745,266.46666666666664C53.2020978081998,241.08888888888887,54.79454357839215,230.40133815716567,56.38698934858451,228.4C76.57984618010413,203.02222222222224,96.77270301162375,201.31788551820898,116.96555984314337,190.33333333333334C147.41623224438112,173.7687133369276,177.86690464561886,162.79499828405352,208.3175770468566,152.26666666666668C274.8374829303215,129.26738379138888,341.35738881378643,132.51138557076212,407.8772946972514,114.20000000000002C446.93186897192675,103.44918250638548,485.9864432466021,96.50210322745482,525.0410175212775,76.13333333333333C545.3776097867913,65.52685826658482,565.714202052305,52.30048813368407,586.0507943178188,38.06666666666666C602.7005295452126,26.413320048624243,619.3502647726062,13.206660024312121,636,0" fill="none" stroke="#dd4528" filter="url(#xkcdify)"></path><g class="xkcd-chart-xycircle-group" filter="url(#xkcdify)" xy-group-index="0"><circle class="chart-tooltip-dot" style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);" r="1.75" cx="0" cy="380.6666666666667" pointer-events="all"></circle><circle class="chart-tooltip-dot" style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);" r="1.75" cx="20.785687223298776" cy="342.6" pointer-events="all"></circle><circle class="chart-tooltip-dot" style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);" r="1.75" cx="51.467033587251706" cy="304.53333333333336" pointer-events="all"></circle><circle class="chart-tooltip-dot" style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);" r="1.75" cx="51.60965203800745" cy="266.46666666666664" pointer-events="all"></circle><circle class="chart-tooltip-dot" style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);" r="1.75" cx="56.38698934858451" cy="228.4" pointer-events="all"></circle><circle class="chart-tooltip-dot" style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);" r="1.75" cx="116.96555984314337" cy="190.33333333333334" pointer-events="all"></circle><circle class="chart-tooltip-dot" style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);" r="1.75" cx="208.3175770468566" cy="152.26666666666668" pointer-events="all"></circle><circle class="chart-tooltip-dot" style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);" r="1.75" cx="407.8772946972514" cy="114.20000000000002" pointer-events="all"></circle><circle class="chart-tooltip-dot" style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);" r="1.75" cx="525.0410175212775" cy="76.13333333333333" pointer-events="all"></circle><circle class="chart-tooltip-dot" style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);" r="1.75" cx="586.0507943178188" cy="38.06666666666666" pointer-events="all"></circle><circle class="chart-tooltip-dot" style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);" r="1.75" cx="636" cy="0" pointer-events="all"></circle></g><svg><svg><rect style="fill: white;" fill-opacity="0.85" stroke="black" stroke-width="2" rx="5" ry="5" filter="url(#xkcdify)" width="134" height="32" x="494" y="333.6666666666667"></rect></svg><svg><rect style="fill: rgb(221, 69, 40);" width="8" height="8" rx="2" ry="2" filter="url(#xkcdify)" x="501" y="345.6666666666667"></rect><text style="font-size: 15px; fill: black;" x="515" y="353.6666666666667">spyro24/ustoat</text></svg></svg></g></g><svg x="15" y="10" style="visibility: hidden;"><rect style="fill: white;" fill-opacity="0.9" stroke="black" stroke-width="2" rx="5" ry="5" filter="url(#xkcdify)" width="25" height="30" x="5" y="5"></rect><text style="font-size: 15px; font-weight: bold; fill: black;" x="15" y="25"></text></svg><text style="font-size: 20px; font-weight: bold; fill: black;" x="50%" y="30" text-anchor="middle">Star History</text><svg><defs><clipPath id="clip-circle-title"><circle r="11" cx="295" cy="23"></circle></clipPath></defs></svg><image x="284" y="12" height="22" width="22" href="https://avatars.githubusercontent.com/u/72081109?v=4" clip-path="url(#clip-circle-title)"></image><text style="font-size: 17px; fill: black;" x="50%" y="480.6666666666667" text-anchor="middle">Date</text><text text-anchor="end" dy=".75em" transform="rotate(-90)" style="font-size: 17px; fill: black;" y="24" x="-200">GitHub Stars</text></svg>
+        </style>
+  <g
+     transform="translate(70,60)"
+     id="g127">
+    <g
+       pointer-events="all"
+       id="g125">
+      <text
+         style="font-size: 16px; fill: rgb(102, 102, 102);"
+         transform="translate(586,420.6666666666667)"
+         text-anchor="middle"
+         id="text9">star-history.com</text>
+      <image
+         transform="translate(501,405.6666666666667)"
+         height="20"
+         width="20"
+         href="data:image/png;base64,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"
+         id="image11" />
+      <g
+         class="xaxis"
+         transform="translate(0,380.6666666666667)"
+         fill="none"
+         font-size="10"
+         font-family="sans-serif"
+         text-anchor="middle"
+         id="g45">
+        <path
+           class="domain"
+           stroke="currentColor"
+           d="M0.5,0.5H636.5"
+           filter="url(#xkcdify)"
+           style="stroke: black;"
+           id="path13" />
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(58.015243963285165,0)"
+           id="g19">
+          <line
+             stroke="currentColor"
+             y2="0"
+             id="line15" />
+          <text
+             fill="currentColor"
+             y="6"
+             dy="0.71em"
+             style="font-family: xkcd; font-size: 16px; fill: black;"
+             id="text17">March</text>
+        </g>
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(193.82009696487427,0)"
+           id="g25">
+          <line
+             stroke="currentColor"
+             y2="0"
+             id="line21" />
+          <text
+             fill="currentColor"
+             y="6"
+             dy="0.71em"
+             style="font-family: xkcd; font-size: 16px; fill: black;"
+             id="text23">April</text>
+        </g>
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(325.4210312329013,0)"
+           id="g31">
+          <line
+             stroke="currentColor"
+             y2="0"
+             id="line27" />
+          <text
+             fill="currentColor"
+             y="6"
+             dy="0.71em"
+             style="font-family: xkcd; font-size: 16px; fill: black;"
+             id="text29">May</text>
+        </g>
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(461.4086633098628,0)"
+           id="g37">
+          <line
+             stroke="currentColor"
+             y2="0"
+             id="line33" />
+          <text
+             fill="currentColor"
+             y="6"
+             dy="0.71em"
+             style="font-family: xkcd; font-size: 16px; fill: black;"
+             id="text35">June</text>
+        </g>
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(593.0095975778898,0)"
+           id="g43">
+          <line
+             stroke="currentColor"
+             y2="0"
+             id="line39" />
+          <text
+             fill="currentColor"
+             y="6"
+             dy="0.71em"
+             style="font-family: xkcd; font-size: 16px; fill: black;"
+             id="text41">July</text>
+        </g>
+      </g>
+      <g
+         class="yaxis"
+         fill="none"
+         font-size="10"
+         font-family="sans-serif"
+         text-anchor="end"
+         id="g85">
+        <path
+           class="domain"
+           stroke="currentColor"
+           d="M-1,381.1666666666667H0.5V0.5H-1"
+           filter="url(#xkcdify)"
+           style="stroke: black;"
+           id="path47" />
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(0,381.1666666666667)"
+           id="g53">
+          <line
+             stroke="currentColor"
+             x2="-1"
+             id="line49" />
+          <text
+             fill="currentColor"
+             x="-7"
+             dy="0.32em"
+             style="font-family: xkcd; font-size: 16px; fill: black;"
+             id="text51" />
+        </g>
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(0,305.03333333333336)"
+           id="g59">
+          <line
+             stroke="currentColor"
+             x2="-1"
+             id="line55" />
+          <text
+             fill="currentColor"
+             x="-7"
+             dy="0.32em"
+             style="font-family: xkcd; font-size: 16px; fill: black;"
+             id="text57">2</text>
+        </g>
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(0,228.9)"
+           id="g65">
+          <line
+             stroke="currentColor"
+             x2="-1"
+             id="line61" />
+          <text
+             fill="currentColor"
+             x="-7"
+             dy="0.32em"
+             style="font-family: xkcd; font-size: 16px; fill: black;"
+             id="text63">4</text>
+        </g>
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(0,152.76666666666668)"
+           id="g71">
+          <line
+             stroke="currentColor"
+             x2="-1"
+             id="line67" />
+          <text
+             fill="currentColor"
+             x="-7"
+             dy="0.32em"
+             style="font-family: xkcd; font-size: 16px; fill: black;"
+             id="text69">6</text>
+        </g>
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(0,76.63333333333333)"
+           id="g77">
+          <line
+             stroke="currentColor"
+             x2="-1"
+             id="line73" />
+          <text
+             fill="currentColor"
+             x="-7"
+             dy="0.32em"
+             style="font-family: xkcd; font-size: 16px; fill: black;"
+             id="text75">8</text>
+        </g>
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(0,0.5)"
+           id="g83">
+          <line
+             stroke="currentColor"
+             x2="-1"
+             id="line79" />
+          <text
+             fill="currentColor"
+             x="-7"
+             dy="0.32em"
+             style="font-family: xkcd; font-size: 16px; fill: black;"
+             id="text81">10</text>
+        </g>
+      </g>
+      <path
+         class="xkcd-chart-xyline"
+         d="M0,380.6666666666667C6.928562407766258,367.1513609284525,13.857124815532519,353.6360551902384,20.785687223298776,342.6C31.01280267794975,326.3098947874159,41.23991813260073,329.91111111111115,51.467033587251706,304.53333333333336C51.51457307083695,304.4153678663895,51.5621125544222,267.22427265405986,51.60965203800745,266.46666666666664C53.2020978081998,241.08888888888887,54.79454357839215,230.40133815716567,56.38698934858451,228.4C76.57984618010413,203.02222222222224,96.77270301162375,201.31788551820898,116.96555984314337,190.33333333333334C147.41623224438112,173.7687133369276,177.86690464561886,162.79499828405352,208.3175770468566,152.26666666666668C274.8374829303215,129.26738379138888,341.35738881378643,132.51138557076212,407.8772946972514,114.20000000000002C446.93186897192675,103.44918250638548,485.9864432466021,96.50210322745482,525.0410175212775,76.13333333333333C545.3776097867913,65.52685826658482,565.714202052305,52.30048813368407,586.0507943178188,38.06666666666666C602.7005295452126,26.413320048624243,619.3502647726062,13.206660024312121,636,0"
+         fill="none"
+         stroke="#dd4528"
+         filter="url(#xkcdify)"
+         id="path87" />
+      <g
+         class="xkcd-chart-xycircle-group"
+         filter="url(#xkcdify)"
+         xy-group-index="0"
+         id="g111">
+        <circle
+           class="chart-tooltip-dot"
+           style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);"
+           r="1.75"
+           cx="0"
+           cy="380.6666666666667"
+           pointer-events="all"
+           id="circle89" />
+        <circle
+           class="chart-tooltip-dot"
+           style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);"
+           r="1.75"
+           cx="20.785687223298776"
+           cy="342.6"
+           pointer-events="all"
+           id="circle91" />
+        <circle
+           class="chart-tooltip-dot"
+           style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);"
+           r="1.75"
+           cx="51.467033587251706"
+           cy="304.53333333333336"
+           pointer-events="all"
+           id="circle93" />
+        <circle
+           class="chart-tooltip-dot"
+           style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);"
+           r="1.75"
+           cx="51.60965203800745"
+           cy="266.46666666666664"
+           pointer-events="all"
+           id="circle95" />
+        <circle
+           class="chart-tooltip-dot"
+           style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);"
+           r="1.75"
+           cx="56.38698934858451"
+           cy="228.4"
+           pointer-events="all"
+           id="circle97" />
+        <circle
+           class="chart-tooltip-dot"
+           style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);"
+           r="1.75"
+           cx="116.96555984314337"
+           cy="190.33333333333334"
+           pointer-events="all"
+           id="circle99" />
+        <circle
+           class="chart-tooltip-dot"
+           style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);"
+           r="1.75"
+           cx="208.3175770468566"
+           cy="152.26666666666668"
+           pointer-events="all"
+           id="circle101" />
+        <circle
+           class="chart-tooltip-dot"
+           style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);"
+           r="1.75"
+           cx="407.8772946972514"
+           cy="114.20000000000002"
+           pointer-events="all"
+           id="circle103" />
+        <circle
+           class="chart-tooltip-dot"
+           style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);"
+           r="1.75"
+           cx="525.0410175212775"
+           cy="76.13333333333333"
+           pointer-events="all"
+           id="circle105" />
+        <circle
+           class="chart-tooltip-dot"
+           style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);"
+           r="1.75"
+           cx="586.0507943178188"
+           cy="38.06666666666666"
+           pointer-events="all"
+           id="circle107" />
+        <circle
+           class="chart-tooltip-dot"
+           style="stroke: rgb(221, 69, 40); fill: rgb(221, 69, 40);"
+           r="1.75"
+           cx="636"
+           cy="0"
+           pointer-events="all"
+           id="circle109" />
+      </g>
+      <svg
+         version="1.1"
+         id="svg123">
+        <svg
+           version="1.1"
+           id="svg115">
+          <rect
+             style="fill: white;"
+             fill-opacity="0.85"
+             stroke="black"
+             stroke-width="2"
+             rx="5"
+             ry="5"
+             filter="url(#xkcdify)"
+             width="134"
+             height="32"
+             x="494"
+             y="333.6666666666667"
+             id="rect113" />
+        </svg>
+        <svg
+           version="1.1"
+           id="svg121">
+          <rect
+             style="fill: rgb(221, 69, 40);"
+             width="8"
+             height="8"
+             rx="2"
+             ry="2"
+             filter="url(#xkcdify)"
+             x="501"
+             y="345.6666666666667"
+             id="rect117" />
+          <text
+             style="font-size: 15px; fill: black;"
+             x="515"
+             y="353.6666666666667"
+             id="text119">spyro24/ustoat</text>
+        </svg>
+      </svg>
+    </g>
+  </g>
+  <text
+     style="font-size: 20px; font-weight: bold; fill: black;"
+     x="50%"
+     y="30"
+     text-anchor="middle"
+     id="text135">Star History</text>
+  <svg
+     version="1.1"
+     id="svg142">
+    <defs
+       id="defs140">
+      <clipPath
+         id="clip-circle-title">
+        <circle
+           r="11"
+           cx="295"
+           cy="23"
+           id="circle137" />
+      </clipPath>
+    </defs>
+  </svg>
+  <text
+     style="font-size: 17px; fill: black;"
+     x="50%"
+     y="480.6666666666667"
+     text-anchor="middle"
+     id="text146">Date</text>
+  <text
+     text-anchor="end"
+     dy=".75em"
+     transform="rotate(-90)"
+     style="font-size: 17px; fill: black;"
+     y="24"
+     x="-200"
+     id="text148">GitHub Stars</text>
+</svg>
